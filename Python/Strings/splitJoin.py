@@ -45,4 +45,6 @@ def replace_line(line):
 if __name__ == '__main__':
     line = input()
     result = split_and_join(line)
+    result_1 = replace_line(line)
     print(result)
+    print(result_1)
